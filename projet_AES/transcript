@@ -1,0 +1,729 @@
+# //  ModelSim SE-64 10.0 Dec  4 2010 Linux 2.6.32-431.el6.x86_64
+# //
+# //  Copyright 1991-2010 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+vsim lib_bench.aes_tb_conf
+# vsim lib_bench.aes_tb_conf 
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading lib_sources.crypt_pack(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.aes_tb_conf#1
+# Loading work.aes_tb(aes_tb_arch)#1
+# Loading lib_sources.aes_conf#1
+# Loading lib_sources.aes(aes_arch)#1
+# Loading lib_sources.fsm_statecontroller_moore(fsm_statecontroller_moore_arch)#1
+# Loading lib_sources.keyexpander_i_o(behavioral)#1
+# Loading lib_sources.roundexe_conf#1
+# Loading lib_sources.roundexe(roundexe_arch)#1
+# Loading lib_sources.subbytes_conf#1
+# Loading lib_sources.subbytes(subbytes_arch)#1
+# Loading lib_sources.sbox(sbox_arch)#1
+# Loading lib_sources.shiftrows(shiftrows_arch)#1
+# Loading lib_sources.mixcolumns(mixcolumns_arch)#1
+# Loading lib_sources.mux2_1(mux2_1_arch)#1
+# Loading lib_sources.addroundkey(addroundkey_arch)#1
+add wave sim:/aes_tb/DUT/*
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/RoundExe1/Subbytes1/Lignes(3)/Colonnes(3)/inter
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/RoundExe1/Subbytes1/Lignes(3)/Colonnes(2)/inter
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/RoundExe1/Subbytes1/Lignes(3)/Colonnes(1)/inter
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/RoundExe1/Subbytes1/Lignes(3)/Colonnes(0)/inter
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/RoundExe1/Subbytes1/Lignes(2)/Colonnes(3)/inter
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/RoundExe1/Subbytes1/Lignes(2)/Colonnes(2)/inter
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/RoundExe1/Subbytes1/Lignes(2)/Colonnes(1)/inter
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/RoundExe1/Subbytes1/Lignes(2)/Colonnes(0)/inter
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/RoundExe1/Subbytes1/Lignes(1)/Colonnes(3)/inter
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/RoundExe1/Subbytes1/Lignes(1)/Colonnes(2)/inter
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/RoundExe1/Subbytes1/Lignes(1)/Colonnes(1)/inter
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/RoundExe1/Subbytes1/Lignes(1)/Colonnes(0)/inter
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/RoundExe1/Subbytes1/Lignes(0)/Colonnes(3)/inter
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/RoundExe1/Subbytes1/Lignes(0)/Colonnes(2)/inter
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/RoundExe1/Subbytes1/Lignes(0)/Colonnes(1)/inter
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/RoundExe1/Subbytes1/Lignes(0)/Colonnes(0)/inter
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/KeyExpander_I_O1/Inst_SBox4
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/KeyExpander_I_O1/Inst_SBox3
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/KeyExpander_I_O1/Inst_SBox2
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/KeyExpander_I_O1/Inst_SBox1
+run
+run
+run
+run
+run
+add wave -r sim:/aes_tb/DUT/*
+restart
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/RoundExe1/Subbytes1/Lignes(3)/Colonnes(3)/inter
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/RoundExe1/Subbytes1/Lignes(3)/Colonnes(2)/inter
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/RoundExe1/Subbytes1/Lignes(3)/Colonnes(1)/inter
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/RoundExe1/Subbytes1/Lignes(3)/Colonnes(0)/inter
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/RoundExe1/Subbytes1/Lignes(2)/Colonnes(3)/inter
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/RoundExe1/Subbytes1/Lignes(2)/Colonnes(2)/inter
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/RoundExe1/Subbytes1/Lignes(2)/Colonnes(1)/inter
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/RoundExe1/Subbytes1/Lignes(2)/Colonnes(0)/inter
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/RoundExe1/Subbytes1/Lignes(1)/Colonnes(3)/inter
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/RoundExe1/Subbytes1/Lignes(1)/Colonnes(2)/inter
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/RoundExe1/Subbytes1/Lignes(1)/Colonnes(1)/inter
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/RoundExe1/Subbytes1/Lignes(1)/Colonnes(0)/inter
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/RoundExe1/Subbytes1/Lignes(0)/Colonnes(3)/inter
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/RoundExe1/Subbytes1/Lignes(0)/Colonnes(2)/inter
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/RoundExe1/Subbytes1/Lignes(0)/Colonnes(1)/inter
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/RoundExe1/Subbytes1/Lignes(0)/Colonnes(0)/inter
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/KeyExpander_I_O1/Inst_SBox4
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/KeyExpander_I_O1/Inst_SBox3
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/KeyExpander_I_O1/Inst_SBox2
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/KeyExpander_I_O1/Inst_SBox1
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+vsim lib_bench.aes_tb_conf
+# vsim lib_bench.aes_tb_conf 
+# ** Warning: (vsim-31) Unable to unlink file "/eleves/home/sebastien.dosset/projet_AES/lib/lib_bench/_opt__lock".
+# No such file or directory. (errno = ENOENT)
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading lib_sources.crypt_pack(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.aes_tb_conf#1
+# Loading work.aes_tb(aes_tb_arch)#1
+# Loading lib_sources.aes_conf#1
+# Loading lib_sources.aes(aes_arch)#1
+# Loading lib_sources.fsm_statecontroller_moore(fsm_statecontroller_moore_arch)#1
+# Loading lib_sources.keyexpander_i_o(behavioral)#1
+# Loading lib_sources.roundexe_conf#1
+# Loading lib_sources.roundexe(roundexe_arch)#1
+# Loading lib_sources.subbytes_conf#1
+# Loading lib_sources.subbytes(subbytes_arch)#1
+# Loading lib_sources.sbox(sbox_arch)#1
+# Loading lib_sources.shiftrows(shiftrows_arch)#1
+# Loading lib_sources.mixcolumns(mixcolumns_arch)#1
+# Loading lib_sources.mux2_1(mux2_1_arch)#1
+# Loading lib_sources.addroundkey(addroundkey_arch)#1
+add wave -r sim:/aes_tb/DUT/*
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/RoundExe1/Subbytes1/Lignes(3)/Colonnes(3)/inter
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/RoundExe1/Subbytes1/Lignes(3)/Colonnes(2)/inter
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/RoundExe1/Subbytes1/Lignes(3)/Colonnes(1)/inter
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/RoundExe1/Subbytes1/Lignes(3)/Colonnes(0)/inter
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/RoundExe1/Subbytes1/Lignes(2)/Colonnes(3)/inter
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/RoundExe1/Subbytes1/Lignes(2)/Colonnes(2)/inter
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/RoundExe1/Subbytes1/Lignes(2)/Colonnes(1)/inter
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/RoundExe1/Subbytes1/Lignes(2)/Colonnes(0)/inter
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/RoundExe1/Subbytes1/Lignes(1)/Colonnes(3)/inter
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/RoundExe1/Subbytes1/Lignes(1)/Colonnes(2)/inter
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/RoundExe1/Subbytes1/Lignes(1)/Colonnes(1)/inter
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/RoundExe1/Subbytes1/Lignes(1)/Colonnes(0)/inter
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/RoundExe1/Subbytes1/Lignes(0)/Colonnes(3)/inter
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/RoundExe1/Subbytes1/Lignes(0)/Colonnes(2)/inter
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/RoundExe1/Subbytes1/Lignes(0)/Colonnes(1)/inter
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/RoundExe1/Subbytes1/Lignes(0)/Colonnes(0)/inter
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/KeyExpander_I_O1/Inst_SBox4
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/KeyExpander_I_O1/Inst_SBox3
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/KeyExpander_I_O1/Inst_SBox2
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/KeyExpander_I_O1/Inst_SBox1
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+vsim lib_bench.aes_tb_conf
+# vsim lib_bench.aes_tb_conf 
+# ** Warning: (vsim-31) Unable to unlink file "/eleves/home/sebastien.dosset/projet_AES/lib/lib_bench/_opt__lock".
+# No such file or directory. (errno = ENOENT)
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading lib_sources.crypt_pack(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.aes_tb_conf#1
+# Loading work.aes_tb(aes_tb_arch)#1
+# Loading lib_sources.aes_conf#1
+# Loading lib_sources.aes(aes_arch)#1
+# Loading lib_sources.fsm_statecontroller_moore(fsm_statecontroller_moore_arch)#1
+# Loading lib_sources.keyexpander_i_o(behavioral)#1
+# Loading lib_sources.roundexe_conf#1
+# Loading lib_sources.roundexe(roundexe_arch)#1
+# Loading lib_sources.subbytes_conf#1
+# Loading lib_sources.subbytes(subbytes_arch)#1
+# Loading lib_sources.sbox(sbox_arch)#1
+# Loading lib_sources.shiftrows(shiftrows_arch)#1
+# Loading lib_sources.mixcolumns(mixcolumns_arch)#1
+# Loading lib_sources.mux2_1(mux2_1_arch)#1
+# Loading lib_sources.addroundkey(addroundkey_arch)#1
+add wave -r sim:/aes_tb/DUT/*
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/RoundExe1/Subbytes1/Lignes(3)/Colonnes(3)/inter
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/RoundExe1/Subbytes1/Lignes(3)/Colonnes(2)/inter
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/RoundExe1/Subbytes1/Lignes(3)/Colonnes(1)/inter
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/RoundExe1/Subbytes1/Lignes(3)/Colonnes(0)/inter
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/RoundExe1/Subbytes1/Lignes(2)/Colonnes(3)/inter
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/RoundExe1/Subbytes1/Lignes(2)/Colonnes(2)/inter
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/RoundExe1/Subbytes1/Lignes(2)/Colonnes(1)/inter
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/RoundExe1/Subbytes1/Lignes(2)/Colonnes(0)/inter
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/RoundExe1/Subbytes1/Lignes(1)/Colonnes(3)/inter
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/RoundExe1/Subbytes1/Lignes(1)/Colonnes(2)/inter
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/RoundExe1/Subbytes1/Lignes(1)/Colonnes(1)/inter
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/RoundExe1/Subbytes1/Lignes(1)/Colonnes(0)/inter
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/RoundExe1/Subbytes1/Lignes(0)/Colonnes(3)/inter
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/RoundExe1/Subbytes1/Lignes(0)/Colonnes(2)/inter
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/RoundExe1/Subbytes1/Lignes(0)/Colonnes(1)/inter
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/RoundExe1/Subbytes1/Lignes(0)/Colonnes(0)/inter
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/KeyExpander_I_O1/Inst_SBox4
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/KeyExpander_I_O1/Inst_SBox3
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/KeyExpander_I_O1/Inst_SBox2
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/KeyExpander_I_O1/Inst_SBox1
+run
+run
+run
+run
+run
+run
+run
+run
+vsim lib_bench.aes_tb_conf
+# vsim lib_bench.aes_tb_conf 
+# ** Warning: (vsim-31) Unable to unlink file "/eleves/home/sebastien.dosset/projet_AES/lib/lib_bench/_opt__lock".
+# No such file or directory. (errno = ENOENT)
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading lib_sources.crypt_pack(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.aes_tb_conf#1
+# Loading work.aes_tb(aes_tb_arch)#1
+# Loading lib_sources.aes_conf#1
+# Loading lib_sources.aes(aes_arch)#1
+# Loading lib_sources.fsm_statecontroller_moore(fsm_statecontroller_moore_arch)#1
+# Loading lib_sources.keyexpander_i_o(behavioral)#1
+# Loading lib_sources.roundexe_conf#1
+# Loading lib_sources.roundexe(roundexe_arch)#1
+# Loading lib_sources.subbytes_conf#1
+# Loading lib_sources.subbytes(subbytes_arch)#1
+# Loading lib_sources.sbox(sbox_arch)#1
+# Loading lib_sources.shiftrows(shiftrows_arch)#1
+# Loading lib_sources.mixcolumns(mixcolumns_arch)#1
+# Loading lib_sources.mux2_1(mux2_1_arch)#1
+# Loading lib_sources.addroundkey(addroundkey_arch)#1
+add wave -r sim:/aes_tb/DUT/*
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/RoundExe1/Subbytes1/Lignes(3)/Colonnes(3)/inter
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/RoundExe1/Subbytes1/Lignes(3)/Colonnes(2)/inter
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/RoundExe1/Subbytes1/Lignes(3)/Colonnes(1)/inter
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/RoundExe1/Subbytes1/Lignes(3)/Colonnes(0)/inter
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/RoundExe1/Subbytes1/Lignes(2)/Colonnes(3)/inter
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/RoundExe1/Subbytes1/Lignes(2)/Colonnes(2)/inter
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/RoundExe1/Subbytes1/Lignes(2)/Colonnes(1)/inter
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/RoundExe1/Subbytes1/Lignes(2)/Colonnes(0)/inter
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/RoundExe1/Subbytes1/Lignes(1)/Colonnes(3)/inter
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/RoundExe1/Subbytes1/Lignes(1)/Colonnes(2)/inter
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/RoundExe1/Subbytes1/Lignes(1)/Colonnes(1)/inter
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/RoundExe1/Subbytes1/Lignes(1)/Colonnes(0)/inter
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/RoundExe1/Subbytes1/Lignes(0)/Colonnes(3)/inter
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/RoundExe1/Subbytes1/Lignes(0)/Colonnes(2)/inter
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/RoundExe1/Subbytes1/Lignes(0)/Colonnes(1)/inter
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/RoundExe1/Subbytes1/Lignes(0)/Colonnes(0)/inter
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/KeyExpander_I_O1/Inst_SBox4
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/KeyExpander_I_O1/Inst_SBox3
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/KeyExpander_I_O1/Inst_SBox2
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/KeyExpander_I_O1/Inst_SBox1
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+vsim lib_bench.aes_tb_conf
+# vsim lib_bench.aes_tb_conf 
+# ** Warning: (vsim-31) Unable to unlink file "/eleves/home/sebastien.dosset/projet_AES/lib/lib_bench/_opt__lock".
+# No such file or directory. (errno = ENOENT)
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading lib_sources.crypt_pack(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.aes_tb_conf#1
+# Loading work.aes_tb(aes_tb_arch)#1
+# Loading lib_sources.aes_conf#1
+# Loading lib_sources.aes(aes_arch)#1
+# Loading lib_sources.fsm_statecontroller_moore(fsm_statecontroller_moore_arch)#1
+# Loading lib_sources.keyexpander_i_o(behavioral)#1
+# Loading lib_sources.roundexe_conf#1
+# Loading lib_sources.roundexe(roundexe_arch)#1
+# Loading lib_sources.subbytes_conf#1
+# Loading lib_sources.subbytes(subbytes_arch)#1
+# Loading lib_sources.sbox(sbox_arch)#1
+# Loading lib_sources.shiftrows(shiftrows_arch)#1
+# Loading lib_sources.mixcolumns(mixcolumns_arch)#1
+# Loading lib_sources.mux2_1(mux2_1_arch)#1
+# Loading lib_sources.addroundkey(addroundkey_arch)#1
+add wave -r sim:/aes_tb/DUT/*
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/RoundExe1/Subbytes1/Lignes(3)/Colonnes(3)/inter
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/RoundExe1/Subbytes1/Lignes(3)/Colonnes(2)/inter
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/RoundExe1/Subbytes1/Lignes(3)/Colonnes(1)/inter
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/RoundExe1/Subbytes1/Lignes(3)/Colonnes(0)/inter
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/RoundExe1/Subbytes1/Lignes(2)/Colonnes(3)/inter
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/RoundExe1/Subbytes1/Lignes(2)/Colonnes(2)/inter
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/RoundExe1/Subbytes1/Lignes(2)/Colonnes(1)/inter
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/RoundExe1/Subbytes1/Lignes(2)/Colonnes(0)/inter
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/RoundExe1/Subbytes1/Lignes(1)/Colonnes(3)/inter
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/RoundExe1/Subbytes1/Lignes(1)/Colonnes(2)/inter
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/RoundExe1/Subbytes1/Lignes(1)/Colonnes(1)/inter
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/RoundExe1/Subbytes1/Lignes(1)/Colonnes(0)/inter
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/RoundExe1/Subbytes1/Lignes(0)/Colonnes(3)/inter
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/RoundExe1/Subbytes1/Lignes(0)/Colonnes(2)/inter
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/RoundExe1/Subbytes1/Lignes(0)/Colonnes(1)/inter
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/RoundExe1/Subbytes1/Lignes(0)/Colonnes(0)/inter
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/KeyExpander_I_O1/Inst_SBox4
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/KeyExpander_I_O1/Inst_SBox3
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/KeyExpander_I_O1/Inst_SBox2
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/KeyExpander_I_O1/Inst_SBox1
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+vsim lib_bench.aes_tb_conf
+# vsim lib_bench.aes_tb_conf 
+# ** Warning: (vsim-31) Unable to unlink file "/eleves/home/sebastien.dosset/projet_AES/lib/lib_bench/_opt__lock".
+# No such file or directory. (errno = ENOENT)
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading lib_sources.crypt_pack(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.aes_tb_conf#1
+# Loading work.aes_tb(aes_tb_arch)#1
+# Loading lib_sources.aes_conf#1
+# Loading lib_sources.aes(aes_arch)#1
+# Loading lib_sources.fsm_statecontroller_moore(fsm_statecontroller_moore_arch)#1
+# Loading lib_sources.keyexpander_i_o(behavioral)#1
+# Loading lib_sources.roundexe_conf#1
+# Loading lib_sources.roundexe(roundexe_arch)#1
+# Loading lib_sources.subbytes_conf#1
+# Loading lib_sources.subbytes(subbytes_arch)#1
+# Loading lib_sources.sbox(sbox_arch)#1
+# Loading lib_sources.shiftrows(shiftrows_arch)#1
+# Loading lib_sources.mixcolumns(mixcolumns_arch)#1
+# Loading lib_sources.mux2_1(mux2_1_arch)#1
+# Loading lib_sources.addroundkey(addroundkey_arch)#1
+add wave -r sim:/aes_tb/DUT/*
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/RoundExe1/Subbytes1/Lignes(3)/Colonnes(3)/inter
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/RoundExe1/Subbytes1/Lignes(3)/Colonnes(2)/inter
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/RoundExe1/Subbytes1/Lignes(3)/Colonnes(1)/inter
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/RoundExe1/Subbytes1/Lignes(3)/Colonnes(0)/inter
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/RoundExe1/Subbytes1/Lignes(2)/Colonnes(3)/inter
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/RoundExe1/Subbytes1/Lignes(2)/Colonnes(2)/inter
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/RoundExe1/Subbytes1/Lignes(2)/Colonnes(1)/inter
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/RoundExe1/Subbytes1/Lignes(2)/Colonnes(0)/inter
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/RoundExe1/Subbytes1/Lignes(1)/Colonnes(3)/inter
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/RoundExe1/Subbytes1/Lignes(1)/Colonnes(2)/inter
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/RoundExe1/Subbytes1/Lignes(1)/Colonnes(1)/inter
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/RoundExe1/Subbytes1/Lignes(1)/Colonnes(0)/inter
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/RoundExe1/Subbytes1/Lignes(0)/Colonnes(3)/inter
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/RoundExe1/Subbytes1/Lignes(0)/Colonnes(2)/inter
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/RoundExe1/Subbytes1/Lignes(0)/Colonnes(1)/inter
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/RoundExe1/Subbytes1/Lignes(0)/Colonnes(0)/inter
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/KeyExpander_I_O1/Inst_SBox4
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/KeyExpander_I_O1/Inst_SBox3
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/KeyExpander_I_O1/Inst_SBox2
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/KeyExpander_I_O1/Inst_SBox1
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+vsim lib_bench.aes_tb_conf
+# vsim lib_bench.aes_tb_conf 
+# ** Warning: (vsim-31) Unable to unlink file "/eleves/home/sebastien.dosset/projet_AES/lib/lib_bench/_opt__lock".
+# No such file or directory. (errno = ENOENT)
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading lib_sources.crypt_pack(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.aes_tb_conf#1
+# Loading work.aes_tb(aes_tb_arch)#1
+# Loading lib_sources.aes_conf#1
+# Loading lib_sources.aes(aes_arch)#1
+# Loading lib_sources.fsm_statecontroller_moore(fsm_statecontroller_moore_arch)#1
+# Loading lib_sources.keyexpander_i_o(behavioral)#1
+# Loading lib_sources.roundexe_conf#1
+# Loading lib_sources.roundexe(roundexe_arch)#1
+# Loading lib_sources.subbytes_conf#1
+# Loading lib_sources.subbytes(subbytes_arch)#1
+# Loading lib_sources.sbox(sbox_arch)#1
+# Loading lib_sources.shiftrows(shiftrows_arch)#1
+# Loading lib_sources.mixcolumns(mixcolumns_arch)#1
+# Loading lib_sources.mux2_1(mux2_1_arch)#1
+# Loading lib_sources.addroundkey(addroundkey_arch)#1
+add wave -r sim:/aes_tb/DUT/*
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/RoundExe1/Subbytes1/Lignes(3)/Colonnes(3)/inter
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/RoundExe1/Subbytes1/Lignes(3)/Colonnes(2)/inter
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/RoundExe1/Subbytes1/Lignes(3)/Colonnes(1)/inter
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/RoundExe1/Subbytes1/Lignes(3)/Colonnes(0)/inter
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/RoundExe1/Subbytes1/Lignes(2)/Colonnes(3)/inter
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/RoundExe1/Subbytes1/Lignes(2)/Colonnes(2)/inter
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/RoundExe1/Subbytes1/Lignes(2)/Colonnes(1)/inter
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/RoundExe1/Subbytes1/Lignes(2)/Colonnes(0)/inter
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/RoundExe1/Subbytes1/Lignes(1)/Colonnes(3)/inter
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/RoundExe1/Subbytes1/Lignes(1)/Colonnes(2)/inter
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/RoundExe1/Subbytes1/Lignes(1)/Colonnes(1)/inter
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/RoundExe1/Subbytes1/Lignes(1)/Colonnes(0)/inter
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/RoundExe1/Subbytes1/Lignes(0)/Colonnes(3)/inter
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/RoundExe1/Subbytes1/Lignes(0)/Colonnes(2)/inter
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/RoundExe1/Subbytes1/Lignes(0)/Colonnes(1)/inter
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/RoundExe1/Subbytes1/Lignes(0)/Colonnes(0)/inter
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/KeyExpander_I_O1/Inst_SBox4
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/KeyExpander_I_O1/Inst_SBox3
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/KeyExpander_I_O1/Inst_SBox2
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/KeyExpander_I_O1/Inst_SBox1
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+add wave sim:/aes_tb/*
+restart
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/RoundExe1/Subbytes1/Lignes(3)/Colonnes(3)/inter
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/RoundExe1/Subbytes1/Lignes(3)/Colonnes(2)/inter
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/RoundExe1/Subbytes1/Lignes(3)/Colonnes(1)/inter
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/RoundExe1/Subbytes1/Lignes(3)/Colonnes(0)/inter
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/RoundExe1/Subbytes1/Lignes(2)/Colonnes(3)/inter
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/RoundExe1/Subbytes1/Lignes(2)/Colonnes(2)/inter
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/RoundExe1/Subbytes1/Lignes(2)/Colonnes(1)/inter
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/RoundExe1/Subbytes1/Lignes(2)/Colonnes(0)/inter
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/RoundExe1/Subbytes1/Lignes(1)/Colonnes(3)/inter
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/RoundExe1/Subbytes1/Lignes(1)/Colonnes(2)/inter
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/RoundExe1/Subbytes1/Lignes(1)/Colonnes(1)/inter
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/RoundExe1/Subbytes1/Lignes(1)/Colonnes(0)/inter
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/RoundExe1/Subbytes1/Lignes(0)/Colonnes(3)/inter
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/RoundExe1/Subbytes1/Lignes(0)/Colonnes(2)/inter
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/RoundExe1/Subbytes1/Lignes(0)/Colonnes(1)/inter
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/RoundExe1/Subbytes1/Lignes(0)/Colonnes(0)/inter
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/KeyExpander_I_O1/Inst_SBox4
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/KeyExpander_I_O1/Inst_SBox3
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/KeyExpander_I_O1/Inst_SBox2
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /aes_tb/DUT/KeyExpander_I_O1/Inst_SBox1
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+vsim lib_bench.fsm_statecontroller_moore_tb_conf
+# vsim lib_bench.fsm_statecontroller_moore_tb_conf 
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading lib_sources.crypt_pack(body)
+# Loading work.fsm_statecontroller_moore_tb_conf#1
+# Loading work.fsm_statecontroller_moore_tb(fsm_statecontroller_moore_tb_arch)#1
+# Loading lib_sources.fsm_statecontroller_moore(fsm_statecontroller_moore_arch)#1
+add wave sim:/fsm_statecontroller_moore_tb/DUT/*
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+quit
+quit

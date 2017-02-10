@@ -1,0 +1,8 @@
+-- Sébastien Dosset 07/12/16
+-- MixColumns Test Bench Configuration
+
+library IEEE;
+use IEEE.std_logic_1164.all;
+use IEEE.numeric_std.all;
+library lib_sources;
+use lib_sources.crypt_pack.all;

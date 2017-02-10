@@ -1,0 +1,16 @@
+dim. déc. 18 16:22:18 CET 2016
+Trace back: bad window path name ""
+    while executing
+"winfo reqheight $footer"
+    (procedure "_getWidget" line 12)
+    invoked from within
+"_getWidget"
+    (procedure "_handleMenuHelp" line 5)
+    invoked from within
+"_handleMenuHelp $m [$m index active] "
+    (procedure "MenuHelp::_handleMenuSelect" line 1)
+    invoked from within
+"MenuHelp::_handleMenuSelect .#mBar"
+    (command bound to event)
+  <2: ::tkerror {bad window path name ""}
+  <1: ::bgerror {bad window path name ""}

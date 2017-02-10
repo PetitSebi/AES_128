@@ -1,0 +1,73 @@
+# DOSSET Sébastien
+# Fichier de compilation.
+
+#Importation des commandes
+
+source /soft/MENTOR/config_bashrc/.bashrc_mentor
+source /soft/MENTOR/config_bashrc/.bashrc_modelsim
+
+#Nettoyage
+rm -rf ./lib/lib_sources
+rm -rf ./lib/lib_bench
+
+#Recréation de la librairie de travail
+vlib ./lib/lib_sources
+vlib ./lib/lib_bench
+
+#Compilation de package
+vcom -work lib_sources ./sources/CryptPack.vhd
+vcom -work lib_sources ./sources/BankReg.vhd
+vcom -work lib_sources ./sources/FSM_key_expand.vhd
+vcom -work lib_sources ./sources/KeyExpander_I_O.vhd
+
+#Compilation des sources
+vcom -work lib_sources ./sources/SBox.vhd
+
+vcom -work lib_sources ./sources/Subbytes.vhd
+vcom -work lib_sources ./sources/Subbytes_conf.vhd
+
+vcom -work lib_sources ./sources/ShiftRows.vhd
+
+vcom -work lib_sources ./sources/MixColumns.vhd
+
+vcom -work lib_sources ./sources/FSM_StateController_Moore.vhd
+
+vcom -work lib_sources ./sources/Mux2_1.vhd
+
+vcom -work lib_sources ./sources/AddRoundKey.vhd
+
+vcom -work lib_sources ./sources/RoundExe.vhd
+vcom -work lib_sources ./sources/RoundExe_conf.vhd
+
+vcom -work lib_sources ./sources/AES.vhd
+vcom -work lib_sources ./sources/AES_conf.vhd
+
+#Compilation des Tests bench
+vcom -work lib_bench ./bench/SBox_tb.vhd
+vcom -work lib_bench ./bench/SBox_tb_conf.vhd
+
+vcom -work lib_bench ./bench/Subbytes_tb.vhd
+vcom -work lib_bench ./bench/Subbytes_tb_conf.vhd
+
+vcom -work lib_bench ./bench/ShiftRows_tb.vhd
+vcom -work lib_bench ./bench/ShiftRows_tb_conf.vhd
+
+vcom -work lib_bench ./bench/FSM_StateController_Moore_tb.vhd
+vcom -work lib_bench ./bench/FSM_StateController_Moore_tb_conf.vhd
+
+vcom -work lib_bench ./bench/Mux2_1_tb.vhd
+vcom -work lib_bench ./bench/Mux2_1_tb_conf.vhd
+
+vcom -work lib_bench ./bench/MixColumns_tb.vhd
+vcom -work lib_bench ./bench/MixColumns_tb_conf.vhd
+
+vcom -work lib_bench ./bench/AddRoundKey_tb.vhd
+vcom -work lib_bench ./bench/AddRoundKey_tb_conf.vhd
+
+vcom -work lib_bench ./bench/RoundExe_tb.vhd
+vcom -work lib_bench ./bench/RoundExe_tb_conf.vhd
+
+vcom -work lib_bench ./bench/AES_tb.vhd
+vcom -work lib_bench ./bench/AES_tb_conf.vhd
+
+
